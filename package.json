@@ -1,0 +1,18 @@
+{
+  "name": "twitter-depromoter",
+  "title": "Remove Twitter Promoted Tweets",
+  "id": "jid1-t6qyrcHyRLimnw",
+  "description": "Automatically removes promoted tweets from the twitter timeline",
+  "author": "DH",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [
+    {
+      "name": "interval",
+      "title": "Check Interval (ms)",
+      "Description": "Interval in ms between checking page for new promoted content",
+      "type": "integer",
+      "value": 1000
+    }
+  ]
+}
