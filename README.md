@@ -1,7 +1,8 @@
-= Firefox extension to remove promoted links from Twitter timeline
+# What
+Firefox extension to remove promoted links from web interface Twitter timeline.
 
-== What
-Remove promoted tweets from twitter.com timeline.
+# Build
+Run `cfx xpi` in root. Must have firefox SDK up and running.
 
-== Configure
-Runs every `interval` ms. Set in `package.json` before building, or preferences after installing.
+# Configure
+Runs every `interval` ms. Set this in `package.json` before building, or set in preferences after installing.
